@@ -1,0 +1,125 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	box-sizing: border-box;
+}
+
+header{
+	background-image: url("images/Starbucks3.jpg");
+	height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+ul{
+	list-style-type: none;
+	float: right;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+    border-radius: 100px;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li .active{
+	background-color: #fff;
+	color: #000;
+}
+
+.logo img{
+	float: left;
+	width: 90px;
+	height: auto;
+	padding: 5px 20px;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 150px;
+    padding-top : 35px;
+	color: rgba(255, 255, 255, .4);
+}
+
+footer address{
+	text-align: center; 
+}
+
+footer p {
+  text-align: center; 
+  color: rgba(255, 255, 255, .4);
+}
+
+.column{
+	float: left;
+	width: 20%;
+	padding: 0 10px;
+}
+
+.row{
+	position: absolute;
+	top: 30%;
+	left: 15%
+}
+
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.card{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	padding: 16px;
+	text-align: center;
+	background-color: rgba(158,158,158,0.7);
+	border-radius: 50px;
+}
+
+.h_img{
+	width: 100%
+}
+
+.card a{
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+    border-radius: 100px;
+}
+
+.btn{
+	border-radius: 100px;
+	border: 2px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+
+
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
