@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html" charset="utf-8" /><!--可以显示中文-->
+	<title>网上报名Online Registration-南方大学学院Southern University College</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+	<script src="form.js" type="text/javascript"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<div class="container" style="max-width: 970px;">
+		<div class="g"> <!-- padding-left:15px; padding-right:15px;-->
+			<div class="panel">
+				<div class="panel-body">
+					<div class="row">
+						<a href="https://www.southern.edu.my/home.html"><img src="images/logo SUC.png" alt="Logo SUC"></a>
+						<h1 style="display: inline-block; vertical-align: text-top; padding-left: 24px; padding-right: 24px;">网上报名 Online Registration</h1>
+					</div>
+			        <div class="row">
+			          <p>注意事项Instructions:</p>
+			          <ol>
+			            <li>这个报名表格共有五大项目，请仔细填写。<br>This form contains five (5) parts, please fill out this form before submission.</li>
+			            <li>必填资料已被标上红色星号 (<span style="color:red">*</span>)。<br>The required fields are marked in red asterisk (<span style="color:red">*</span>).</li>
+			            <li>我们将会使用您所提供的联络方式与您联络，请确保联络资料<strong>正确无误</strong>。<br>Kindly please check and make sure contact informations are <strong>correct</strong>, our staff will use these information to get in touch with you.</li>
+			            <li>表格提交后将无法再修改所提交的资料。<br>No amendment is allowed after you submit your application.</li>
+			          </ol>
+			        </div>
+				</div>
+			</div>
+		</div>
+
+<!-------------------------1---------------------------->
+
+        <form name='registration' onSubmit="return formValidation();">
+        <div class="g"> <!-- padding-left:15px; padding-right:15px;-->
+        	<div class="panel panel-red"><!--红色的大框-->
+        		<div class="panel-top"><!--最上面的框-->
+        			<h4><span>1. 入学学期&资料 Intake & Choices </span></h4>
+        		</div>
+        	    <div class="panel-body">
+	         		<ul class="list">
+	        			<li class="list-item">
+	        				<h4><span>申请入学梯次 Intake and Programme</span></h4>
+	        				<span>请选择入学年份和入学梯次。<br>Please select intake year and intake.</span>
+	        				<div class="form">
+	        					<label class="ctext">
+	        						入学年份与梯次 Year/Intake<span style="color:red">*</span>
+	        					</label>
+	        					<div class="ctext">
+	        						<div class="ctext">
+	        								<input type="radio" name="intake" value="may">2020/MAY
+	        								<input type="radio" name="intake" value="sept">2020/SEPT
+	        						</div>
+	        					</div>
+	        				</div>
+	        			</li>
+	        			<li class="list-item">
+	        				<div>
+	        					<h4>
+	        						<span>申请科系 Choice of Programme</span>
+	        					</h4>
+	        					<div class="form">
+	        						<label for="course_select1" class="ctext">
+	        							第一志愿 1<sup>st</sup> Choice<span style="color:red">*</span>
+	        						</label>
+	        						<div class="ctext">
+	        							<select name="course_select1" id="course_select1" class="form-control" required="">
+	        								<option value="" disabled selected>请选择 Click to choose</option>
+	        								<optgroup label="学士课程 Academic Programme">
+	        									<option label="FBS - Foundation In Chinese Communication 中文传播大学基础课程">FBS - Foundation In Chinese Communication 中文传播大学基础课程</option>
+	        									<option label="DAC - Diploma In Accounting 会计学专业文凭课程">DAC - Diploma In Accounting 会计学专业文凭课程</option>
+	        									<option label="DBA - Diploma In Business Administration 商业与行政专业文凭课程">DBA - Diploma In Business Administration 商业与行政专业文凭课程</option>
+	        									<option label="DCS - Diploma In Computer Science 电脑科学专业文凭课程">DCS - Diploma In Computer Science 电脑科学专业文凭课程</option>
+	        									<option label="DIT - Diploma In Information Technology 资讯科技专业文凭课程">DIT - Diploma In Information Technology 资讯科技专业文凭课程</option>
+	        									<option label="DIM - Diploma In Marketing 市场营销专业文凭课程">DIM - Diploma In Marketing 市场营销专业文凭课程</option>
+	        								</optgroup>
+	        							</select>
+	        						</div>
+	        					</div>
+	        					<div class="form">
+	        						<label for="course_select2" class="ctext">
+	        							第二志愿 2<sup>nd</sup> Choice<span style="color:red">*</span>
+	        						</label>
+	        						<div class="ctext">
+	        							<select name="course_select2" id="course_select2" class="form-control" required="">
+	        								<option value="" disabled selected>请选择 Click to choose</option>
+	        								<optgroup label="学士课程 Academic Programme">
+	        									<option label="FBS - Foundation In Chinese Communication 中文传播大学基础课程">FBS - Foundation In Chinese Communication 中文传播大学基础课程</option>
+	        									<option label="DAC - Diploma In Accounting 会计学专业文凭课程">DAC - Diploma In Accounting 会计学专业文凭课程</option>
+	        									<option label="DBA - Diploma In Business Administration 商业与行政专业文凭课程">DBA - Diploma In Business Administration 商业与行政专业文凭课程</option>
+	        									<option label="DCS - Diploma In Computer Science 电脑科学专业文凭课程">DCS - Diploma In Computer Science 电脑科学专业文凭课程</option>
+	        									<option label="DIT - Diploma In Information Technology 资讯科技专业文凭课程">DIT - Diploma In Information Technology 资讯科技专业文凭课程</option>
+	        									<option label="DIM - Diploma In Marketing 市场营销专业文凭课程">DIM - Diploma In Marketing 市场营销专业文凭课程</option>
+	        								</optgroup>
+	        							</select>
+	        						</div>
+	        					</div>
+	        					<div class="form">
+	        						<label for="course_select3" class="ctext">
+	        							第三志愿 3<sup>rd</sup> Choice<span style="color:red">*</span>
+	        						</label>
+	        						<div class="ctext">
+	        							<select name="course_select3" id="course_select3" class="form-control" required="">
+	        								<option value="" disabled selected>请选择 Click to choose</option>
+	        								<optgroup label="学士课程 Academic Programme">
+	        									<option label="FBS - Foundation In Chinese Communication 中文传播大学基础课程">FBS - Foundation In Chinese Communication 中文传播大学基础课程</option>
+	        									<option label="DAC - Diploma In Accounting 会计学专业文凭课程">DAC - Diploma In Accounting 会计学专业文凭课程</option>
+	        									<option label="DBA - Diploma In Business Administration 商业与行政专业文凭课程">DBA - Diploma In Business Administration 商业与行政专业文凭课程</option>
+	        									<option label="DCS - Diploma In Computer Science 电脑科学专业文凭课程">DCS - Diploma In Computer Science 电脑科学专业文凭课程</option>
+	        									<option label="DIT - Diploma In Information Technology 资讯科技专业文凭课程">DIT - Diploma In Information Technology 资讯科技专业文凭课程</option>
+	        									<option label="DIM - Diploma In Marketing 市场营销专业文凭课程">DIM - Diploma In Marketing 市场营销专业文凭课程</option>
+	        								</optgroup>
+	        							</select>
+	        						</div>
+	        					</div>
+	        				</div>
+	        			</li>
+	        			<li class="list-item">
+	        				<div>
+	        					<h4>
+	        						<span>申请住宿 Hostel</span>
+	        					</h4>
+	        					<div class="row">
+	        						<label class="ctext">
+	        							申请住宿 Hostel<span style="color:red">*</span>
+	        						</label>
+	        						<div class="ctext">
+	        							<label for="apply_hostely" class="radio-inline">
+	        								<input type="radio" value="y" name="apply_hostel">是 Yes
+	        							</label>
+	        							<label for="apply_hosteln" class="radio-inline">
+	        								<input type="radio" value="n" name="apply_hostel">否 No
+	        							</label>
+	        						</div>
+	        					</div>
+	        				</div>
+	        			</li>
+	        			<li class="list-item">
+	        				<div>
+	        					<h4>
+	        						<span>奖贷申请 Scholarship</span>
+	        					</h4>
+	        					<div class="row">
+	        						<label class="ctext">
+	        							奖贷申请 Scholarship<span style="color:red">*</span>
+	        						</label>
+	        						<div class="ctext">
+	        							<select name="scholarship" id="scholarship" class="form-control" required="">
+	        								<option value="" disabled selected>请选择 Click to choose</option>
+	        									<option value="1">学优生奖学金 Excellent Students Full Scholarship</option>
+	        									<option value="2">多元文化奖学金 Multi-Cultural Scholarship</option>
+	        									<option value="3">新生奖学金 New Student Scholarship</option>
+	        									<option value="4">无 None</option>
+	        							</select>
+	        						</div>
+	        					</div>
+	        			    </div>
+	        		    </li> 
+	        		</ul>        		
+        	    </div>
+        	</div>
+
+<!-------------------------2---------------------------->
+
+        	<div class="panel panel-blue"><!--蓝色的大框-->
+        		<div class="panel-top"><!--最上面的框-->
+        			<h4><span>2. 个人资料 Personal Information</span></h4>
+        		</div>
+        	    <div class="panel-body">
+        	    	<div class="form">
+        	    		<label for="en_name" class="ctext">
+        	    			英文名字 English Name<span style="color:red">*</span>
+        	    		</label>
+        	    		<div class="ctext">
+        	    			<input type="text" name="en_name" id="en_name" class="form-control control-size" required="">
+        	    		</div>
+        	    	</div>
+        	    	<div class="form">
+        	    		<label for="ch_name" class="ctext">
+        	    			中文名字 Chinese Name
+        	    		</label>
+        	    		<div class="ctext">
+        	    			<input type="text" name="ch_name" id="ch_name" class="form-control control-size">
+        	    		</div>
+        	    	</div>
+					<div class="form">
+						<label class="ctext">
+							性别 Gender<span style="color:red">*</span>
+						</label>
+						<div class="ctext">
+							<label class="radio-inline">
+								<input type="radio" value="m" name="gender">男 Male
+							</label>
+							<label class="radio-inline">
+								<input type="radio" value="f" name="gender">女 Female
+							</label>
+						</div>
+					</div>
+        	    	<div class="form">
+        	    		<label for="dateofbirth" class="ctext">
+        	    			出生日期 Date of Birth<span style="color:red">*</span>
+        	    		</label>
+        	    		<div class="ctext">
+        	    			<input type="date" name="dateofbirth" id="dateofbirth" class="form-control control-size" required="">
+        	    		</div>
+        	    	</div>
+                    <div class="form">
+						<label class="ctext">
+							国籍 Nationality<span style="color:red">*</span>
+						</label>
+						<div class="ctext">
+							<select name="nationality" id="nationality" class="form-control" required="">
+								<option value="" disabled selected>请选择 Click to choose</option>
+								    <option value="mys">马来西亚 Malaysian</option>
+									<option value="sg">新加坡 Singaporean</option>
+									<option value="ch">中国 Chinese</option>
+									<option value="jp">日本 Japanese</option>
+									<option value="kr">韩国 Korean</option>
+									<option value="ot">其他 Other</option>
+							</select>
+						</div>
+					</div>
+                    <div class="form">
+        	    		<label for="ic" class="ctext">
+        	    			身份证件号 Identification No.<span style="color:red">*</span>
+        	    		</label>
+        	    		<div class="ctext">
+        	    			<input type="text" name="ic" id="ic" class="form-control control-size" placeholder="000000-00-0000" pattern="[0-9]{6}-[0-9]{2}-[0-9]{4}" required="">
+        	    		</div>
+        	    	</div>
+                    <div class="form">
+						<label class="ctext control-label">
+							种族 Race<span style="color:red">*</span>
+						</label>
+						<div class="ctext">
+							<select name="race" id="race" class="form-control" required="">
+								<option value="" disabled selected>请选择 Click to choose</option>
+									<option value="m">马来人 Malay</option>
+									<option value="c">华人 Chinese</option>
+									<option value="i">印度人 Indian</option>
+									<option value="ot">其他 Other</option>
+							</select>
+						</div>
+					</div>
+                    <div class="form">
+						<label class="ctext">
+							宗教 Religion<span style="color:red">*</span>
+						</label>
+						<div class="ctext">
+							<select name="religion" id="religion" class="form-control" required="">
+								<option value="" disabled selected>请选择 Click to choose</option>
+								    <option value="none">无 None</option>
+									<option value="budhism">佛教 Buddhism</option>
+									<option value="christian">基督教 Christian</option>
+									<option value="islam">伊斯兰教 Islam</option>
+									<option value="hindu">兴都教 Hindu</option>
+									<option value="ot">其他 Other</option>
+							</select>
+						</div>
+					</div>
+					<div class="form">
+        	    		<label for="mtel" class="ctext">
+        	    			手提电话 Mobile Number<span style="color:red">*</span>
+        	    		</label>
+        	    		<div class="ctext">
+        	    			<input type="text" name="mtel" id="mtel" class="form-control control-size" placeholder="xxx-xxxxxxxx" pattern="[0-9]{3}-[0-9]{7}" required="">
+        	    		</div>
+        	    	</div>  
+        	    	<div class="form">
+        	    		<label for="mail" class="ctext">
+        	    			邮件 E-mail<span style="color:red">*</span>
+        	    		</label>
+        	    		<div class="ctext">
+        	    			<input type="email" name="mail" id="mail" class="form-control control-size" placeholder="Exp:12345@gmail.com" required="">
+        	    		</div>
+        	    	</div> 
+        	    	<div class="form">
+        	    		<label for="address" class="ctext">
+        	    			住家地址 Address<span style="color:red">*</span>
+        	    		</label>
+        	    		<div class="ctext">
+        	    			<input type="text" name="address1" id="address" class="form-control control-size" placeholder="Exp:01, Jalan XXX 01" required="">
+        	    		</div>
+        	    		<div class="ctext">
+        	    			<input type="text" name="address2" id="address" class="form-control control-size" placeholder="Exp: Taman XXX" required="">
+        	    		</div>
+        	    	</div>  
+        	    	<div class="form">
+        	    		<label for="area" class="ctext">
+        	    			地区 Area<span style="color:red">*</span>
+        	    		</label>
+        	    		<div class="ctext">
+        	    			<input type="text" name="area" id="area" class="form-control control-size" placeholder="Exp: Johor Bahru" required="">
+        	    		</div>
+        	    	</div>  
+        	    	<div class="form">
+        	    		<label for="postcode" class="ctext">
+        	    			邮编 Postcode<span style="color:red">*</span>
+        	    		</label>
+        	    		<div class="ctext">
+        	    			<input type="text" name="postcode" id="postcode" class="form-control control-size" pattern="[0-9]{5}" required="">
+        	    		</div>
+        	    	</div>  
+                    <div class="form">
+						<label class="ctext">
+							州属 State<span style="color:red">*</span>
+						</label>
+						<div class="ctext">
+							<select name="state" id="state" class="form-control" required="">
+								<option value="" disabled selected>请选择 Click to choose</option>
+									<option value="jhr">柔佛 Johor</option>
+									<option value="kdh">吉打 Kedah</option>
+									<option value="klt">吉兰丹 Kelantan</option>
+									<option value="mlk">马六甲 Melaka</option>
+									<option value="nsb">森美兰 Negeri Sembilan</option>
+									<option value="phg">彭亨 Pahang</option>
+									<option value="prk">霹雳 Perak</option>
+									<option value="ppg">槟城 Pulau Pinang</option>
+									<option value="sbh">沙巴 Sabah</option>
+									<option value="swk">砂劳越 Sarawak</option>
+									<option value="slg">雪兰莪 Selangor</option>
+									<option value="tgn">登嘉楼 Terengganu</option>
+									<option value="ot">其他 Other</option>
+							</select>
+						</div>
+					</div>
+        	    </div>
+        	</div>
+
+<!-------------------------3---------------------------->
+
+        	<div class="panel panel-green"><!--青色的大框-->
+        		<div class="panel-top"><!--最上面的框-->
+        			<h4><span>3. 学历 Academic Qualification</span></h4>
+        		</div>
+        	    <div class="panel-body">
+        	    	<div class="form">
+        	    		<label for="school" class="ctext">
+        	    			中学 Secondary School<span style="color:red">*</span>
+        	    		</label>
+        	    		<div class="ctext">
+        	    			<input type="text" name="school" id="school" class="form-control control-size" placeholder="请输入学校名字 Please enter instituite name" required="">
+        	    		</div>
+        	    		<div class="ctext">
+							<select name="schoolstate" id="schoolstate" class="form-control" required="">
+								<option value="" disabled selected>请选择 Click to choose</option>
+									<option value="jhr">柔佛 Johor</option>
+									<option value="kdh">吉打 Kedah</option>
+									<option value="klt">吉兰丹 Kelantan</option>
+									<option value="mlk">马六甲 Melaka</option>
+									<option value="nsb">森美兰 Negeri Sembilan</option>
+									<option value="phg">彭亨 Pahang</option>
+									<option value="prk">霹雳 Perak</option>
+									<option value="ppg">槟城 Pulau Pinang</option>
+									<option value="sbh">沙巴 Sabah</option>
+									<option value="swk">砂劳越 Sarawak</option>
+									<option value="slg">雪兰莪 Selangor</option>
+									<option value="tgn">登嘉楼 Terengganu</option>
+									<option value="ot">其他 Other</option>
+							</select>
+						</div>
+        	    		<div class="ctext">
+        	    			<select name="schoolyear" id="schoolyear" class="form-control" required="">
+								<option value="" disabled selected>请选择 Click to choose</option>
+									<option value="2020">2020</option>
+									<option value="2019">2019</option>
+									<option value="2018">2018</option>
+									<option value="2017">2017</option>
+									<option value="2016">2016</option>
+									<option value="2015">2015</option>
+									<option value="2014">2014</option>
+									<option value="2013">2013</option>
+									<option value="2012">2012</option>
+									<option value="2011">2011</option>
+									<option value="2010">2010</option>
+									<option value="2009">2009</option>
+									<option value="2008">2008</option>
+									<option value="ot">Other</option>
+							</select>
+        	    		</div>
+        	    	</div>	
+        	    	<div class="form">
+        	    		<label for="highschool" class="ctext">
+        	    			大专 Higher Instituition
+        	    		</label>
+        	    		<div class="ctext">
+        	    			<input type="text" name="highschool" id="highschool" class="form-control control-size" placeholder="请输入学校名字 Please enter instituite name">
+        	    		</div>
+        	    		<div class="ctext">
+							<select name="highschoolstate" id="highschoolstate" class="form-control">
+								<option>请选择 Click to choose</option>
+									<option value="jhr">柔佛 Johor</option>
+									<option value="kdh">吉打 Kedah</option>
+									<option value="klt">吉兰丹 Kelantan</option>
+									<option value="mlk">马六甲 Melaka</option>
+									<option value="nsb">森美兰 Negeri Sembilan</option>
+									<option value="phg">彭亨 Pahang</option>
+									<option value="prk">霹雳 Perak</option>
+									<option value="ppg">槟城 Pulau Pinang</option>
+									<option value="sbh">沙巴 Sabah</option>
+									<option value="swk">砂劳越 Sarawak</option>
+									<option value="slg">雪兰莪 Selangor</option>
+									<option value="tgn">登嘉楼 Terengganu</option>
+									<option value="ot">其他 Other</option>
+							</select>
+						</div>
+        	    		<div class="ctext">
+        	    			<select name="highschoolyear" id="highschoolyear" class="form-control">
+								<option>请选择 Click to choose</option>
+									<option value="2020">2020</option>
+									<option value="2019">2019</option>
+									<option value="2018">2018</option>
+									<option value="2017">2017</option>
+									<option value="2016">2016</option>
+									<option value="2015">2015</option>
+									<option value="2014">2014</option>
+									<option value="2013">2013</option>
+									<option value="2012">2012</option>
+									<option value="2011">2011</option>
+									<option value="2010">2010</option>
+									<option value="2009">2009</option>
+									<option value="2008">2008</option>
+									<option value="ot">Other</option>
+							</select>
+        	    		</div>
+        	    	</div>	
+        	    	<div class="form">
+        	    		<label for="certificatee" class="ctext">
+        	    			证书名称 Certificate<span style="color:red">*</span>
+        	    		</label>
+        	    		<div class="ctext">
+							<select name="certificatee" id="certificatee" class="form-control" required="">
+								<option value="" disabled selected>请选择 Click to choose</option>
+									<option value="spm">SPM</option>
+									<option value="olevel">O Level</option>
+									<option value="uec">UEC</option>
+									<option value="stpm">STPM</option>
+									<option value="alevel">A Level</option>
+									<option value="ot">其他 Other</option>
+							</select>
+						</div>
+						<div class="ctext">
+							<table class="table">
+								<caption style="text-align: left;">科目 Subject<span style="color:red">*</span></caption>
+								<thead>
+									<tr>
+										<td class="ctext">
+										<strong>#</strong>
+									    </td>
+										<td class="ctext">
+										<strong>科目 Subject</strong>
+									    </td>
+										<td class="ctext">
+										<strong>等级 Grade</strong>
+									    </td>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td class="ctext">1.</td>
+										<td class="ctext">
+											<select name="subject1" id="subject" class="form-control" required="">
+												<option value="" disabled selected>请选择 Click to choose</option>
+												<option value="Bahasa Cina">中文 Bahasa Cina</option>
+												<option value="Bahasa Inggeris">英文 Bahasa Inggeris</option>
+												<option value="Bahasa Melayu">马来文 Bahasa Melayu</option>
+												<option value="Matematik">数学 Matematik</option>
+												<option value="Sejarah">历史 Sejarah</option>
+											</select>
+										</td>
+										<td class="ctext">
+											<select name="grade1" id="grade" class="form-control" required="">
+												<option value="" disabled selected>请选择 Click to choose</option>
+													<option value="a">A</option>
+													<option value="b">B</option>
+													<option value="c">C</option>
+													<option value="d">D</option>
+													<option value="e">E</option>
+													<option value="f">F</option>
+											</select>
+										</td>
+									</tr>
+									<tr>
+										<td class="ctext">2.</td>
+										<td class="ctext">
+											<select name="subject2" id="subject" class="form-control" required="">
+												<option value="" disabled selected>请选择 Click to choose</option>
+												<option value="Bahasa Cina">中文 Bahasa Cina</option>
+												<option value="Bahasa Inggeris">英文 Bahasa Inggeris</option>
+												<option value="Bahasa Melayu">马来文 Bahasa Melayu</option>
+												<option value="Matematik">数学 Matematik</option>
+												<option value="Sejarah">历史 Sejarah</option>
+											</select>
+										</td>
+										<td class="ctext">
+											<select name="grade2" id="grade" class="form-control" required="">
+												<option value="" disabled selected>请选择 Click to choose</option>
+													<option value="a">A</option>
+													<option value="b">B</option>
+													<option value="c">C</option>
+													<option value="d">D</option>
+													<option value="e">E</option>
+													<option value="f">F</option>
+											</select>
+										</td>
+									</tr>
+									<tr>
+										<td class="ctext">3.</td>
+										<td class="ctext">
+											<select name="subject3" id="subject" class="form-control" required="">
+												<option value="" disabled selected>请选择 Click to choose</option>
+												<option value="Bahasa Cina">中文 Bahasa Cina</option>
+												<option value="Bahasa Inggeris">英文 Bahasa Inggeris</option>
+												<option value="Bahasa Melayu">马来文 Bahasa Melayu</option>
+												<option value="Matematik">数学 Matematik</option>
+												<option value="Sejarah">历史 Sejarah</option>
+											</select>
+										</td>
+										<td class="ctext">
+											<select name="grade3" id="grade" class="form-control" required="">
+												<option value="" disabled selected>请选择 Click to choose</option>
+													<option value="a">A</option>
+													<option value="b">B</option>
+													<option value="c">C</option>
+													<option value="d">D</option>
+													<option value="e">E</option>
+													<option value="f">F</option>
+											</select>
+										</td>
+									</tr>
+									<tr>
+										<td class="ctext">4.</td>
+										<td class="ctext">
+											<select name="subject4" id="subject" class="form-control" required="">
+												<option value="" disabled selected>请选择 Click to choose</option>
+												<option value="Bahasa Cina">中文 Bahasa Cina</option>
+												<option value="Bahasa Inggeris">英文 Bahasa Inggeris</option>
+												<option value="Bahasa Melayu">马来文 Bahasa Melayu</option>
+												<option value="Matematik">数学 Matematik</option>
+												<option value="Sejarah">历史 Sejarah</option>
+											</select>
+										</td>
+										<td class="ctext">
+											<select name="grade4" id="grade" class="form-control" required="">
+												<option value="" disabled selected>请选择 Click to choose</option>
+													<option value="a">A</option>
+													<option value="b">B</option>
+													<option value="c">C</option>
+													<option value="d">D</option>
+													<option value="e">E</option>
+													<option value="f">F</option>
+											</select>
+										</td>
+									</tr>
+									<tr>
+										<td class="ctext">5.</td>
+										<td class="ctext">
+											<select name="subject5" id="subject" class="form-control" required="">
+												<option value="" disabled selected>请选择 Click to choose</option>
+												<option value="Bahasa Cina">中文 Bahasa Cina</option>
+												<option value="Bahasa Inggeris">英文 Bahasa Inggeris</option>
+												<option value="Bahasa Melayu">马来文 Bahasa Melayu</option>
+												<option value="Matematik">数学 Matematik</option>
+												<option value="Sejarah">历史 Sejarah</option>
+											</select>
+										</td>
+										<td class="ctext">
+											<select name="grade5" id="grade" class="form-control" required="">
+												<option value="" disabled selected>请选择 Click to choose</option>
+													<option value="a">A</option>
+													<option value="b">B</option>
+													<option value="c">C</option>
+													<option value="d">D</option>
+													<option value="e">E</option>
+													<option value="f">F</option>
+											</select>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+        	    	</div>	
+        	    </div>
+        	</div>
+        <!---青结束---->
+           
+            <div class="form">
+            	<button type="submit" class="form-control" style="background-color: red; color: white;">提交 Submit</button>
+            </div>
+        </div>
+        </form>
+    </div>
+</body>
+</html>
